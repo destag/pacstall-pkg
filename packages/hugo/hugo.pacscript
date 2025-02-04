@@ -6,7 +6,7 @@ repology=("project: ${gives}")
 pkgver="0.143.1"
 source=("@${pkgname}~${pkgver}::https://github.com/gohugoio/hugo/releases/download/v${pkgver}/${gives}_${pkgver}_Linux-64bit.tar.gz")
 pkgdesc="Fast and Flexible Static Site Generator in Go"
-sha256sums=("b8948388d739399c59ac71219c1b6099cb8c462d69619e7fd4947c88dce54738")
+sha256sums=("77bd962ab1114c82de77d7d7c6f8cc7bd56fcce44d0ff7f5fb03016884c8e5cf")
 arch=('amd64')
 maintainer=("Przemysław Pietras <przemyslaw.pietras@pm.me>")
 

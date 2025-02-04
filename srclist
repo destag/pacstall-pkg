@@ -10,7 +10,7 @@ pkgbase = hugo
 	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
 	repology = project: hugo
 	source = @hugo~0.143.1::https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_Linux-64bit.tar.gz
-	sha256sums = b8948388d739399c59ac71219c1b6099cb8c462d69619e7fd4947c88dce54738
+	sha256sums = 77bd962ab1114c82de77d7d7c6f8cc7bd56fcce44d0ff7f5fb03016884c8e5cf
 
 pkgname = hugo
 ---
