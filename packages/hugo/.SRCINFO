@@ -1,12 +1,12 @@
 pkgbase = hugo
 	gives = hugo
-	pkgver = 0.143.0
+	pkgver = 0.143.1
 	pkgdesc = Fast and Flexible Static Site Generator in Go
 	arch = amd64
 	replaces = hugo
 	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
 	repology = project: hugo
-	source = @hugo~0.143.0::https://github.com/gohugoio/hugo/releases/download/v0.143.0/hugo_0.143.0_Linux-64bit.tar.gz
+	source = @hugo~0.143.1::https://github.com/gohugoio/hugo/releases/download/v0.143.1/hugo_0.143.1_Linux-64bit.tar.gz
 	sha256sums = b8948388d739399c59ac71219c1b6099cb8c462d69619e7fd4947c88dce54738
 
 pkgname = hugo
