@@ -1,0 +1,12 @@
+pkgbase = kubectl
+	gives = kubectl
+	pkgver = 1.32.1
+	pkgdesc = Kubernetes.io kubectl binary
+	arch = amd64
+	replaces = kubectl
+	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
+	repology = project: kubectl
+	source = @kubectl~1.32.1::https://dl.k8s.io/release/v1.32.1/bin/linux/amd64/kubectl
+	sha256sums = e16c80f1a9f94db31063477eb9e61a2e24c1a4eee09ba776b029048f5369db0c
+
+pkgname = kubectl
