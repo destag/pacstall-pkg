@@ -1,4 +1,5 @@
 direnv
+helm
 hugo
 just
 kubectl
