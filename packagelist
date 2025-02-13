@@ -3,3 +3,4 @@ helm
 hugo
 just
 kubectl
+yq

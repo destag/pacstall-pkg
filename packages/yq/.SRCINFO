@@ -1,0 +1,12 @@
+pkgbase = yq
+	gives = yq
+	pkgver = 4.45.1
+	pkgdesc = Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents
+	arch = amd64
+	replaces = yq
+	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
+	repology = project: yq
+	source = @yq~4.45.1::https://github.com/mikefarah/yq/releases/download/v4.45.1/yq_linux_amd64.tar.gz
+	sha256sums = 290b22a62d0bd3590741557eb6391707a519893d81be975637bc13443140e057
+
+pkgname = yq
