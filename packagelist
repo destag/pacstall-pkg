@@ -3,4 +3,5 @@ helm
 hugo
 just
 kubectl
+slides
 yq
