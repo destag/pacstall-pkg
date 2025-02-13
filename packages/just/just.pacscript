@@ -23,7 +23,6 @@ package() {
   install -Dm644 -t "${pkgdir}/usr/local/share/elvish/lib/" "completions/${pkgname}.elvish"
   install -Dm644 -t "${pkgdir}/usr/local/share/fish/vendor_completions.d/" "completions/${pkgname}.fish"
   install -Dm644 -t "${pkgdir}/usr/local/share/zsh/site-functions/" "completions/_${pkgname}"
-
 }
 
 # vim:set ft=sh ts=2 sw=2 et:

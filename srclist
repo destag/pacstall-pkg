@@ -1,6 +1,32 @@
 ### Auto-generated for pacstall-programs
 ### DO NOT EDIT. Use scripts/srcinfo.sh to build.
 ---
+pkgbase = direnv
+	gives = direnv
+	pkgver = 2.35.0
+	pkgdesc = A shell extension that manages your environment
+	arch = amd64
+	replaces = direnv
+	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
+	repology = project: direnv
+	source = @direnv~2.35.0::https://github.com/direnv/direnv/releases/download/v2.35.0/direnv.linux-amd64
+	sha256sums = 55c294f4376397c68b1f659f049fb104dc2ecd0fcb15a15949d7f748e3f70b66
+
+pkgname = direnv
+---
+pkgbase = helm
+	gives = helm
+	pkgver = 3.17.0
+	pkgdesc = The Kubernetes Package Manager
+	arch = amd64
+	replaces = helm
+	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
+	repology = project: helm
+	source = @helm~3.17.0::https://get.helm.sh/helm-v3.17.0-linux-amd64.tar.gz
+	sha256sums = fb5d12662fde6eeff36ac4ccacbf3abed96b0ee2de07afdde4edb14e613aee24
+
+pkgname = helm
+---
 pkgbase = hugo
 	gives = hugo
 	pkgver = 0.143.1
@@ -26,3 +52,16 @@ pkgbase = just
 	sha256sums = 1c53fa85a8c021ce7b19814e1a5e1dc0aa10c04bddca75196f7ab6db6130d2cd
 
 pkgname = just
+---
+pkgbase = kubectl
+	gives = kubectl
+	pkgver = 1.32.1
+	pkgdesc = Kubernetes.io kubectl binary
+	arch = amd64
+	replaces = kubectl
+	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
+	repology = project: kubectl
+	source = @kubectl~1.32.1::https://dl.k8s.io/release/v1.32.1/bin/linux/amd64/kubectl
+	sha256sums = e16c80f1a9f94db31063477eb9e61a2e24c1a4eee09ba776b029048f5369db0c
+
+pkgname = kubectl
