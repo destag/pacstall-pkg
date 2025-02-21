@@ -1,0 +1,12 @@
+pkgbase = opa
+	gives = opa
+	pkgver = 1.1.0
+	pkgdesc = Open Policy Agent (OPA) is an open source, general-purpose policy engine.
+	arch = amd64
+	replaces = opa
+	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
+	repology = project: opa
+	source = @opa~1.1.0::https://github.com/open-policy-agent/opa/releases/download/v1.1.0/opa_linux_amd64
+	sha256sums = 5dfbb79c80232dd226822264f1695fd862976c23c7da197ab86af89c393dcac2
+
+pkgname = opa
