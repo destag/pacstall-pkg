@@ -1,19 +1,6 @@
 ### Auto-generated for pacstall-programs
 ### DO NOT EDIT. Use scripts/srcinfo.sh to build.
 ---
-pkgbase = direnv
-	gives = direnv
-	pkgver = 2.35.0
-	pkgdesc = A shell extension that manages your environment
-	arch = amd64
-	replaces = direnv
-	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
-	repology = project: direnv
-	source = @direnv~2.35.0::https://github.com/direnv/direnv/releases/download/v2.35.0/direnv.linux-amd64
-	sha256sums = 55c294f4376397c68b1f659f049fb104dc2ecd0fcb15a15949d7f748e3f70b66
-
-pkgname = direnv
----
 pkgbase = helm
 	gives = helm
 	pkgver = 3.17.0
