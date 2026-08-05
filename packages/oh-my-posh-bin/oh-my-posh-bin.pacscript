@@ -3,10 +3,10 @@ gives="oh-my-posh"
 breaks=("${gives}")
 replaces=("${gives}")
 repology=("project: ${gives}")
-pkgver="30.4.0"
+pkgver="30.5.0"
 source=("@${pkgname}~${pkgver}::https://cdn.ohmyposh.dev/releases/v${pkgver}/posh-linux-amd64")
 pkgdesc="The most customisable and low-latency cross platform/shell prompt renderer"
-sha256sums=("7c914613852e5fa76f8317c1ffe80e2b6ebcf974ca96589cd940966f07177ef2")
+sha256sums=("03bc5c288b6f2fc4ad9db4e11f191e970b31e93d3aa2e55ecc09bd7096226484")
 arch=('amd64')
 maintainer=("Przemysław Pietras <przemyslaw.pietras@pm.me>")
 
