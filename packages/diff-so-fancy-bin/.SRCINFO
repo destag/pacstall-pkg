@@ -1,0 +1,13 @@
+pkgbase = diff-so-fancy-bin
+	gives = diff-so-fancy
+	pkgver = 1.4.14
+	pkgdesc = Make your diffs human readable for improved code quality and faster defect detection.
+	arch = amd64
+	breaks = diff-so-fancy
+	replaces = diff-so-fancy
+	maintainer = Przemysław Pietras <przemyslaw.pietras@pm.me>
+	repology = project: diff-so-fancy
+	source = @diff-so-fancy-bin~1.4.14::https://github.com/so-fancy/diff-so-fancy/releases/download/v1.4.14/diff-so-fancy
+	sha256sums = 98b2eb61c132f411d6005962ca14c3b5c537770bb283eef2c92dfef196f70983
+
+pkgname = diff-so-fancy-bin
